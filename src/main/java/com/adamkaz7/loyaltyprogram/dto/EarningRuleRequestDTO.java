@@ -13,6 +13,6 @@ public record EarningRuleRequestDTO(
         @NotNull @Min(1) Integer points,
         LocalDate startDate,
         LocalDate endDate,
-        boolean active
+        @NotNull Boolean active
 ) {
 }
